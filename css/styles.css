@@ -29,3 +29,9 @@ footer {
   text-align: center;
   vertical-align: center;
 }
+
+div {
+  width: 50%;
+  height: fit-content ;
+  background-color: aqua;
+}
