@@ -29,3 +29,24 @@ footer {
   text-align: center;
   vertical-align: center;
 }
+/* here edited by Ravi */
+img {
+  width: 50%;
+  height: 20%;
+  border: 5px solid red;
+}
+
+img:hover {
+  width: max-content;
+  height: max-content;
+}
+
+div.abc {
+  border: 2px dotted black;
+  align-items: right;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: right;
+  margin: 10px;
+  color: red;
+  
+}
