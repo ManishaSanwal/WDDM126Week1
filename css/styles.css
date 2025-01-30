@@ -51,17 +51,4 @@ div.abc {
   
 }
 
-h1,h2 {
-  color: orangered;
-  text-decoration: underline;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: solid black;
-}
-
-p{
-  color: blue;
-  background-color: antiquewhite;
-  font-size: medium;
-  font-style: italic;
-}
 
