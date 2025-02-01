@@ -17,3 +17,7 @@ h1,h2 {
     border: 10px solid navy;
     color: violet;
   }
+  
+  a:hover {
+    color: rgb(25, 224, 108);
+  }
