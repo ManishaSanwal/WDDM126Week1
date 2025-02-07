@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <a href="Home.html">Home</a>
     <a href="Content.html">Content</a>
     <a href="Services.html">Services</a>
     <a href="About.html">About Us</a>
     <a href="Contact.html">Contact Us</a>
-</body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consectetur
+      sunt voluptas ipsum corporis atque? Laborum consequuntur repellat unde
+      voluptates tempora, maxime consequatur natus atque eligendi corporis?
+      Tempora, explicabo vel!
+    </p>
+    <img src="" aria-placeholder="This is an image" />
+    <button onclick="showDateTime()">Show Date & Time</button>
+    <p id="datetime"></p>
+    <script>
+      function showDateTime() {
+        let now = new Date();
+        let formattedDate = now.toLocaleString(); // Formats date & time based on user's locale
+        document.getElementById("datetime").innerText = formattedDate;
+      }
+    </script>
+  </body>
 </html>
